@@ -105,3 +105,17 @@ The implementation does not use React Context or Redux — it directly fetches c
 Axios handles all API communication.
 
 Tailwind CSS handles layout and styling.
+
+🖥️ Backend
+
+The backend runs using the Bun runtime:
+
+bun run server.ts
+
+Make sure your backend server runs on port 4000 (or update the API URLs accordingly).
+
+🌐 Frontend
+
+The frontend runs with Vite:
+
+npm run dev
